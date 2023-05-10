@@ -18,3 +18,4 @@ class Train {
   int getOpCount();         // вернуть число переходов (из вагона в вагон)
 };
 #endif  // INCLUDE_TRAIN_H_
+
