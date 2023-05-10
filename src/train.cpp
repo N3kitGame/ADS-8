@@ -9,8 +9,7 @@ void Train::addCage(bool light) {
         item->light = light;
         first = item;
         last = item;
-    }
-    else {
+    } else {
         Cage* item = new Cage;
         item->light = light;
         last->next = item;
@@ -42,7 +41,7 @@ int Train::getLength() {
         while (countitem != 0) {
             item = item->prev;
             countitem -= 1;
-            countOp += 1;    
+            countOp += 1;
         }
         if (item->light == false) {
             return rez;
